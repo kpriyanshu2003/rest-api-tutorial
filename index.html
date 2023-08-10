@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RESTful API Tutorial</title>
+    <style>
+      body {
+        background-color: black;
+        font-family: "Courier New", Courier, monospace;
+        color: green;
+        font-weight: bold;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      th,
+      td {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+
+      th {
+        background-color: #292929;
+      }
+    </style>
+  </head>
+  <body>
+    <p>root directory.</p>
+    <br />
+    <br />
+    <h1>Endpoints</h1>
+    <table>
+      <tr>
+        <th>HTTP Request</th>
+        <th>Endpoint name</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td>GET</td>
+        <td onclick="window.location.href='/users'" style="cursor: pointer">
+          /users
+        </td>
+        <td>Get names of all users present in the database</td>
+      </tr>
+      <tr>
+        <td>GET</td>
+        <td>/users/:email</td>
+        <td>Get specific user for that email</td>
+      </tr>
+      <tr>
+        <td>POST</td>
+        <td>/users</td>
+        <td>Add a new user to the database</td>
+      </tr>
+      <tr>
+        <td>PUT</td>
+        <td>/users/:email</td>
+        <td>Update details of an already existing user using their email</td>
+      </tr>
+      <tr>
+        <td>DELETE</td>
+        <td>/users/:email</td>
+        <td>Delete details of a user using their email</td>
+      </tr>
+    </table>
+  </body>
+</html>

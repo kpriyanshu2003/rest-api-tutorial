@@ -1,6 +1,6 @@
 # RESTful API Tutorial
 
-This repository contains necessary files for builing own RESTful API. You can find a blog on this here
+This repository contains the necessary files for building your own RESTful API. You can find a blog on this [here](https://kpriyanshu.hashnode.dev/elevating-api-efficiency-how-grafbase-facilitates-rest-to-graphql-migration)
 
 ## Endpoints
 
@@ -12,4 +12,4 @@ This repository contains necessary files for builing own RESTful API. You can fi
 | `PUT`        | `/users/:email` | Update details of an already existing user using their email |
 | `DELETE`     | `/users/:email` | Delete details of a user using their email                   |
 
-NOTE: Kindly use this for educational purpose, because adding many new users will exhaust my MongoDB storage.
+NOTE: Kindly use this for educational purposes, because adding many new users will exhaust my MongoDB storage.
